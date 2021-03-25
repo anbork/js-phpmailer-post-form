@@ -37,7 +37,7 @@ try {
     $mail->setFrom('', 'User'); // Адрес самой почты и имя отправителя
 
     // Получатель письма
-    $mail->addAddress('fedor531@yandex.ru');  
+    $mail->addAddress('');  
 
     // Прикрипление файлов к письму
 if (!empty($file['name'][0])) {
